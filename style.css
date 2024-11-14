@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.info_left {
+  background: rgba(235, 234, 234, 0.667);
+  width: 30%;
+}
+
+.info_right {
+  width: 68%;
+  padding-top: 30px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  background: rgb(19 120 147);
+  height: 350px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 5%;
+}
+
+.header h1 {
+  font-size: 24px;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #fff;
+  margin: 10px 0 15px;
+}
+
+.image-bg {
+  background: white;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+}
+.profile-photo {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+
+h2 {
+  font-size: 20px;
+  color: #0066cc;
+  margin-top: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+}
+
+/* Особисті дані */
+.personal-info {
+  padding: 15px;
+}
+
+.personal-info ul,
+.education ul,
+.employment ul,
+.additional-activities ul {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.personal-info li,
+.education li,
+.employment li,
+.additional-activities li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.personal-info strong,
+.education strong,
+.employment strong,
+.additional-activities strong {
+  color: black;
+  font-weight: 600;
+}
+
+.skills {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+
+.custom-list li {
+    position: relative;
+    padding-left: 40px;
+}
+
+.custom-list li::before {
+    content: "";
+    position: absolute;
+    background-image: url('img/car-ico.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+}
+
+/* Посилання */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.amb-link {
+  color: rgb(74, 94, 248);
+}
+
+
+small {
+  font-size: 14px;
+  color: #777;
+}
