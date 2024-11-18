@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -32,13 +32,13 @@ body {
 
 .info_left {
   background: rgba(235, 234, 234, 0.667);
-  width: 30%;
+  width: 31%;
   border-radius: 10px;
   font-family: "Kurale", serif;
 }
 
 .info_right {
-  width: 68%;
+  width: 67%;
   padding-top: 30px;
   padding-right: 30px;
   font-family: "Kurale", serif;
@@ -110,7 +110,7 @@ h2 {
 .employment li,
 .additional-activities li {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .personal-info strong,
@@ -122,12 +122,39 @@ h2 {
   font-weight: 600;
 }
 
+
 .skills {
   list-style-type: square;
   text-align: justify;
   margin-left: 20px;
 }
 
+.lang {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
+
+.lang-img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.hobby {
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.hobby-img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
 
 a {
   color: black;
@@ -220,14 +247,14 @@ span {
   font-family: "Great Vibes", cursive;
   font-size: 24px;
   color: blue;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
 .watch-btn:hover {
   transform: scale(0.95);
 }
-@media(max-width:1119px){
+@media (max-width: 1119px) {
   .container {
     max-width: 1200px;
     display: flex;
