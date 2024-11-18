@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+>>>>>>> 48648e5 (changed some info)
 * {
   margin: 0;
   padding: 0;
@@ -7,14 +13,27 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+<<<<<<< HEAD
   background-color: #f4f4f4;
+=======
+  background-image: url(img/bg-img.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+>>>>>>> 48648e5 (changed some info)
   color: #333;
   box-sizing: inherit;
 }
 
 .container {
   max-width: 1200px;
+<<<<<<< HEAD
   display: flex;
+=======
+  display: none;
+>>>>>>> 48648e5 (changed some info)
   justify-content: space-between;
   margin: 20px auto;
   background-color: #fff;
@@ -25,11 +44,21 @@ body {
 .info_left {
   background: rgba(235, 234, 234, 0.667);
   width: 30%;
+<<<<<<< HEAD
+=======
+  border-radius: 10px;
+  font-family: "Kurale", serif;
+>>>>>>> 48648e5 (changed some info)
 }
 
 .info_right {
   width: 68%;
   padding-top: 30px;
+<<<<<<< HEAD
+=======
+  padding-right: 30px;
+  font-family: "Kurale", serif;
+>>>>>>> 48648e5 (changed some info)
 }
 
 .header {
@@ -38,18 +67,32 @@ body {
   background: rgb(19 120 147);
   height: 350px;
   border-top-left-radius: 10px;
+<<<<<<< HEAD
   border-bottom-left-radius: 5%;
   border-bottom-right-radius: 5%;
 }
 
 .header h1 {
   font-size: 24px;
+=======
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.header h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+>>>>>>> 48648e5 (changed some info)
   color: #fff;
   padding-top: 30px;
 }
 
 .header p {
   font-size: 18px;
+<<<<<<< HEAD
+=======
+  font-family: "Lobster", sans-serif;
+>>>>>>> 48648e5 (changed some info)
   color: #fff;
   margin: 10px 0 15px;
 }
@@ -68,9 +111,14 @@ body {
   margin-top: 10px;
 }
 
+<<<<<<< HEAD
 
 h2 {
   font-size: 20px;
+=======
+h2 {
+  font-size: 24px;
+>>>>>>> 48648e5 (changed some info)
   color: #0066cc;
   margin-top: 20px;
   border-bottom: 2px solid #ccc;
@@ -83,6 +131,10 @@ h2 {
 }
 
 .personal-info ul,
+<<<<<<< HEAD
+=======
+.about ul,
+>>>>>>> 48648e5 (changed some info)
 .education ul,
 .employment ul,
 .additional-activities ul {
@@ -91,6 +143,10 @@ h2 {
 }
 
 .personal-info li,
+<<<<<<< HEAD
+=======
+.about li,
+>>>>>>> 48648e5 (changed some info)
 .education li,
 .employment li,
 .additional-activities li {
@@ -100,6 +156,10 @@ h2 {
 
 .personal-info strong,
 .education strong,
+<<<<<<< HEAD
+=======
+.about strong,
+>>>>>>> 48648e5 (changed some info)
 .employment strong,
 .additional-activities strong {
   color: black;
@@ -108,10 +168,15 @@ h2 {
 
 .skills {
   list-style-type: square;
+<<<<<<< HEAD
+=======
+  text-align: justify;
+>>>>>>> 48648e5 (changed some info)
   margin-left: 20px;
 }
 
 
+<<<<<<< HEAD
 .custom-list li {
     position: relative;
     padding-left: 40px;
@@ -133,18 +198,263 @@ h2 {
 a {
   color: #0066cc;
   text-decoration: none;
+=======
+a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+>>>>>>> 48648e5 (changed some info)
 }
 
 a:hover {
   text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .amb-link {
   color: rgb(74, 94, 248);
 }
 
 
+=======
+>>>>>>> 48648e5 (changed some info)
 small {
   font-size: 14px;
   color: #777;
 }
+<<<<<<< HEAD
+=======
+
+span {
+  font-family: "Lobster", sans-serif;
+  font-size: 22px;
+}
+
+.modal {
+  margin: 0 auto;
+  padding: 20px;
+  width: 70vw;
+  background: rgb(238, 238, 238);
+  border-radius: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal::before {
+  content: "";
+  position: absolute;
+  background-image: url(img/bell-ico.png);
+  top: -40px;
+  left: -28px;
+  transform: rotateZ(-10deg);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.modal::after {
+  content: "";
+  position: absolute;
+  background-image: url(img/bell-ico.png);
+  top: -40px;
+  right: -50px;
+  transform: rotateZ(10deg);
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modal-title {
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+  font-size: 50px;
+  margin-top: 0;
+}
+.modal__descr {
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px 0;
+}
+.watch-cv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.watch-text {
+  font-family: "Great Vibes", cursive;
+  font-size: 30px;
+  font-weight: 600;
+}
+.watch-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: "Great Vibes", cursive;
+  font-size: 24px;
+  color: blue;
+  transition: all .2s ease-in-out;
+  cursor: pointer;
+}
+
+.watch-btn:hover {
+  transform: scale(0.95);
+}
+@media(max-width:1119px){
+  .container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    background: rgb(19 120 147);
+    height: 350px;
+    border-radius: 10px;
+  }
+  .info_left {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .info_right {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1024px) {
+  .modal {
+    width: 80vw;
+    padding: 15px;
+    border-radius: 25px;
+  }
+  .modal-title {
+    font-size: 40px;
+  }
+  .modal__descr {
+    font-size: 24px;
+  }
+  .watch-btn {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+  }
+  .watch-text {
+    font-size: 24px;
+  }
+  .modal::before,
+  .modal::after {
+    width: 70px;
+    height: 70px;
+    top: -30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .modal {
+    width: 90vw;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .modal-title {
+    font-size: 32px;
+  }
+  .modal__descr {
+    font-size: 20px;
+  }
+  .watch-cv {
+    flex-direction: column;
+  }
+  .watch-btn {
+    width: 170px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .watch-text {
+    font-size: 20px;
+    text-align: right;
+  }
+  .modal::before,
+  .modal::after {
+    width: 60px;
+    height: 60px;
+    top: -20px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-size: cover;
+  }
+  .modal {
+    width: 350px;
+    padding: 5px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .modal-title {
+    font-size: 26px;
+  }
+  .modal__descr {
+    font-size: 18px;
+  }
+  .watch-btn {
+    width: 140px;
+    height: 35px;
+    font-size: 16px;
+  }
+  .watch-text {
+    font-size: 18px;
+  }
+  .modal::before,
+  .modal::after {
+    width: 50px;
+    height: 50px;
+    top: -15px;
+  }
+}
+
+@media (max-width: 375px) {
+  .modal {
+    width: 300px;
+    border-radius: 10px;
+  }
+  .modal-title {
+    font-size: 20px;
+  }
+  .modal__descr {
+    font-size: 16px;
+  }
+  .watch-btn {
+    width: 120px;
+    height: 30px;
+    font-size: 14px;
+  }
+  .watch-text {
+    font-size: 16px;
+  }
+  .modal::before,
+  .modal::after {
+    width: 40px;
+    height: 40px;
+    top: -10px;
+  }
+}
+>>>>>>> 48648e5 (changed some info)
