@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&family=Lobster&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
->>>>>>> 48648e5 (changed some info)
 * {
   margin: 0;
   padding: 0;
@@ -13,27 +10,19 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-<<<<<<< HEAD
-  background-color: #f4f4f4;
-=======
   background-image: url(img/bg-img.avif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 100%;
->>>>>>> 48648e5 (changed some info)
   color: #333;
   box-sizing: inherit;
 }
 
 .container {
   max-width: 1200px;
-<<<<<<< HEAD
-  display: flex;
-=======
   display: none;
->>>>>>> 48648e5 (changed some info)
   justify-content: space-between;
   margin: 20px auto;
   background-color: #fff;
@@ -44,21 +33,15 @@ body {
 .info_left {
   background: rgba(235, 234, 234, 0.667);
   width: 30%;
-<<<<<<< HEAD
-=======
   border-radius: 10px;
   font-family: "Kurale", serif;
->>>>>>> 48648e5 (changed some info)
 }
 
 .info_right {
   width: 68%;
   padding-top: 30px;
-<<<<<<< HEAD
-=======
   padding-right: 30px;
   font-family: "Kurale", serif;
->>>>>>> 48648e5 (changed some info)
 }
 
 .header {
@@ -67,14 +50,6 @@ body {
   background: rgb(19 120 147);
   height: 350px;
   border-top-left-radius: 10px;
-<<<<<<< HEAD
-  border-bottom-left-radius: 5%;
-  border-bottom-right-radius: 5%;
-}
-
-.header h1 {
-  font-size: 24px;
-=======
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -82,17 +57,13 @@ body {
 .header h1 {
   font-family: "Lobster", sans-serif;
   font-size: 30px;
->>>>>>> 48648e5 (changed some info)
   color: #fff;
   padding-top: 30px;
 }
 
 .header p {
   font-size: 18px;
-<<<<<<< HEAD
-=======
   font-family: "Lobster", sans-serif;
->>>>>>> 48648e5 (changed some info)
   color: #fff;
   margin: 10px 0 15px;
 }
@@ -111,14 +82,8 @@ body {
   margin-top: 10px;
 }
 
-<<<<<<< HEAD
-
-h2 {
-  font-size: 20px;
-=======
 h2 {
   font-size: 24px;
->>>>>>> 48648e5 (changed some info)
   color: #0066cc;
   margin-top: 20px;
   border-bottom: 2px solid #ccc;
@@ -131,10 +96,7 @@ h2 {
 }
 
 .personal-info ul,
-<<<<<<< HEAD
-=======
 .about ul,
->>>>>>> 48648e5 (changed some info)
 .education ul,
 .employment ul,
 .additional-activities ul {
@@ -143,10 +105,7 @@ h2 {
 }
 
 .personal-info li,
-<<<<<<< HEAD
-=======
 .about li,
->>>>>>> 48648e5 (changed some info)
 .education li,
 .employment li,
 .additional-activities li {
@@ -156,10 +115,7 @@ h2 {
 
 .personal-info strong,
 .education strong,
-<<<<<<< HEAD
-=======
 .about strong,
->>>>>>> 48648e5 (changed some info)
 .employment strong,
 .additional-activities strong {
   color: black;
@@ -168,62 +124,25 @@ h2 {
 
 .skills {
   list-style-type: square;
-<<<<<<< HEAD
-=======
   text-align: justify;
->>>>>>> 48648e5 (changed some info)
   margin-left: 20px;
 }
 
 
-<<<<<<< HEAD
-.custom-list li {
-    position: relative;
-    padding-left: 40px;
-}
-
-.custom-list li::before {
-    content: "";
-    position: absolute;
-    background-image: url('img/car-ico.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 30px;
-}
-
-/* Посилання */
-a {
-  color: #0066cc;
-  text-decoration: none;
-=======
 a {
   color: black;
   text-decoration: none;
   cursor: pointer;
->>>>>>> 48648e5 (changed some info)
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-<<<<<<< HEAD
-.amb-link {
-  color: rgb(74, 94, 248);
-}
-
-
-=======
->>>>>>> 48648e5 (changed some info)
 small {
   font-size: 14px;
   color: #777;
 }
-<<<<<<< HEAD
-=======
 
 span {
   font-family: "Lobster", sans-serif;
@@ -457,4 +376,3 @@ span {
     top: -10px;
   }
 }
->>>>>>> 48648e5 (changed some info)
